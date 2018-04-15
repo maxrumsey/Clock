@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title id="title">Clock</title>
+    </head>
+    <body>
+      <p id="response"></p>
+      <p id='thicc'><b>Alarm</b></p>
+      HOUR:
+      <input type="text" id="h">
+      MINUTE:
+      <br>
+      <input type="text" id="m">
+      <button id='alarm'>Set Alarm</button><br>
+      <p id="alarmsg"></p>
+    </body>
+    <script>
+      require("./renderer.js")
+    </script>
+    <style>
+      #response {
+        position: fixed;
+        background-color: SlateGray;
+        color: Tan;
+        font-size: 20px;
+        bottom: 0px;
+        left: 0px;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+      }
+      body {
+        background-color: Thistle;
+      }
+      input {
+
+      }
+      #thicc {
+        margin-bottom: 5px;
+        margin-top: 0px;
+      }
+    </style>
+  </html>
