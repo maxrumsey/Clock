@@ -2,7 +2,7 @@
   "name": "Clock",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Dank Memes",
+  "description": "A simple clock.",
   "author": "Max <m.rumsey@hotmail.com>",
   "main": "./app/app.js",
   "scripts": {
